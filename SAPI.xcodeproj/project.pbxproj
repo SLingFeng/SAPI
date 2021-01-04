@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0275FFF8563E306CED7C3710 /* libPods-SAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E018F3BBEF4302F21A6B9B6 /* libPods-SAPI.a */; };
+		22CE909E25A2B8500027DADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE909D25A2B8500027DADA /* AppDelegate.m */; };
+		22CE90A125A2B8500027DADA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE90A025A2B8500027DADA /* SceneDelegate.m */; };
+		22CE90A425A2B8500027DADA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE90A325A2B8500027DADA /* ViewController.m */; };
+		22CE90A725A2B8500027DADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CE90A525A2B8500027DADA /* Main.storyboard */; };
+		22CE90A925A2B8520027DADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CE90A825A2B8520027DADA /* Assets.xcassets */; };
+		22CE90AC25A2B8520027DADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CE90AA25A2B8520027DADA /* LaunchScreen.storyboard */; };
+		22CE90AF25A2B8520027DADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE90AE25A2B8520027DADA /* main.m */; };
+		22CE90B825A2B8910027DADA /* SAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE90B725A2B8910027DADA /* SAPI.m */; };
+		22CE90D025A2DBCF0027DADA /* SAPIResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE90CF25A2DBCF0027DADA /* SAPIResponseModel.m */; };
+		22CE90D625A3046C0027DADA /* TestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CE90D525A3046C0027DADA /* TestUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22CE909925A2B8500027DADA /* SAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CE909C25A2B8500027DADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22CE909D25A2B8500027DADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22CE909F25A2B8500027DADA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		22CE90A025A2B8500027DADA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		22CE90A225A2B8500027DADA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22CE90A325A2B8500027DADA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22CE90A625A2B8500027DADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22CE90A825A2B8520027DADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22CE90AB25A2B8520027DADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22CE90AD25A2B8520027DADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CE90AE25A2B8520027DADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22CE90B625A2B8910027DADA /* SAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAPI.h; sourceTree = "<group>"; };
+		22CE90B725A2B8910027DADA /* SAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPI.m; sourceTree = "<group>"; };
+		22CE90CE25A2DBCF0027DADA /* SAPIResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAPIResponseModel.h; sourceTree = "<group>"; };
+		22CE90CF25A2DBCF0027DADA /* SAPIResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPIResponseModel.m; sourceTree = "<group>"; };
+		22CE90D425A3046C0027DADA /* TestUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestUser.h; sourceTree = "<group>"; };
+		22CE90D525A3046C0027DADA /* TestUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUser.m; sourceTree = "<group>"; };
+		459897E15250D610CDB84F77 /* Pods-SAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPI.release.xcconfig"; path = "Target Support Files/Pods-SAPI/Pods-SAPI.release.xcconfig"; sourceTree = "<group>"; };
+		5E018F3BBEF4302F21A6B9B6 /* libPods-SAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9691B57C741C0417C197E6C /* Pods-SAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPI.debug.xcconfig"; path = "Target Support Files/Pods-SAPI/Pods-SAPI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CE909625A2B8500027DADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0275FFF8563E306CED7C3710 /* libPods-SAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22CE909025A2B8500027DADA = {
+			isa = PBXGroup;
+			children = (
+				22CE909B25A2B8500027DADA /* SAPI */,
+				22CE909A25A2B8500027DADA /* Products */,
+				E6E0A2A0C10A000F0921B45F /* Pods */,
+				A0A4C52DF1EAB204FA8927E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22CE909A25A2B8500027DADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22CE909925A2B8500027DADA /* SAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22CE909B25A2B8500027DADA /* SAPI */ = {
+			isa = PBXGroup;
+			children = (
+				22CE909C25A2B8500027DADA /* AppDelegate.h */,
+				22CE909D25A2B8500027DADA /* AppDelegate.m */,
+				22CE909F25A2B8500027DADA /* SceneDelegate.h */,
+				22CE90A025A2B8500027DADA /* SceneDelegate.m */,
+				22CE90A225A2B8500027DADA /* ViewController.h */,
+				22CE90A325A2B8500027DADA /* ViewController.m */,
+				22CE90A525A2B8500027DADA /* Main.storyboard */,
+				22CE90A825A2B8520027DADA /* Assets.xcassets */,
+				22CE90AA25A2B8520027DADA /* LaunchScreen.storyboard */,
+				22CE90AD25A2B8520027DADA /* Info.plist */,
+				22CE90AE25A2B8520027DADA /* main.m */,
+				22CE90B625A2B8910027DADA /* SAPI.h */,
+				22CE90B725A2B8910027DADA /* SAPI.m */,
+				22CE90CE25A2DBCF0027DADA /* SAPIResponseModel.h */,
+				22CE90CF25A2DBCF0027DADA /* SAPIResponseModel.m */,
+				22CE90D425A3046C0027DADA /* TestUser.h */,
+				22CE90D525A3046C0027DADA /* TestUser.m */,
+			);
+			path = SAPI;
+			sourceTree = "<group>";
+		};
+		A0A4C52DF1EAB204FA8927E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E018F3BBEF4302F21A6B9B6 /* libPods-SAPI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E0A2A0C10A000F0921B45F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9691B57C741C0417C197E6C /* Pods-SAPI.debug.xcconfig */,
+				459897E15250D610CDB84F77 /* Pods-SAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22CE909825A2B8500027DADA /* SAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CE90B225A2B8520027DADA /* Build configuration list for PBXNativeTarget "SAPI" */;
+			buildPhases = (
+				6FC0E7A5EB434FD62D2D1406 /* [CP] Check Pods Manifest.lock */,
+				22CE909525A2B8500027DADA /* Sources */,
+				22CE909625A2B8500027DADA /* Frameworks */,
+				22CE909725A2B8500027DADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAPI;
+			productName = SAPI;
+			productReference = 22CE909925A2B8500027DADA /* SAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22CE909125A2B8500027DADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					22CE909825A2B8500027DADA = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 22CE909425A2B8500027DADA /* Build configuration list for PBXProject "SAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22CE909025A2B8500027DADA;
+			productRefGroup = 22CE909A25A2B8500027DADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22CE909825A2B8500027DADA /* SAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CE909725A2B8500027DADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CE90AC25A2B8520027DADA /* LaunchScreen.storyboard in Resources */,
+				22CE90A925A2B8520027DADA /* Assets.xcassets in Resources */,
+				22CE90A725A2B8500027DADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FC0E7A5EB434FD62D2D1406 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CE909525A2B8500027DADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CE90B825A2B8910027DADA /* SAPI.m in Sources */,
+				22CE90D025A2DBCF0027DADA /* SAPIResponseModel.m in Sources */,
+				22CE90A425A2B8500027DADA /* ViewController.m in Sources */,
+				22CE909E25A2B8500027DADA /* AppDelegate.m in Sources */,
+				22CE90AF25A2B8520027DADA /* main.m in Sources */,
+				22CE90D625A3046C0027DADA /* TestUser.m in Sources */,
+				22CE90A125A2B8500027DADA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22CE90A525A2B8500027DADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CE90A625A2B8500027DADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22CE90AA25A2B8520027DADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CE90AB25A2B8520027DADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22CE90B025A2B8520027DADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22CE90B125A2B8520027DADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22CE90B325A2B8520027DADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9691B57C741C0417C197E6C /* Pods-SAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadf.SAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22CE90B425A2B8520027DADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459897E15250D610CDB84F77 /* Pods-SAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadf.SAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CE909425A2B8500027DADA /* Build configuration list for PBXProject "SAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CE90B025A2B8520027DADA /* Debug */,
+				22CE90B125A2B8520027DADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CE90B225A2B8520027DADA /* Build configuration list for PBXNativeTarget "SAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CE90B325A2B8520027DADA /* Debug */,
+				22CE90B425A2B8520027DADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22CE909125A2B8500027DADA /* Project object */;
+}
