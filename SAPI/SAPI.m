@@ -134,14 +134,14 @@ static AFHTTPSessionManager *_sessionManager = nil;
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         weakSelf.task = task;
-        
-        [weakSelf requestDidSuccee:responseObject];
+        //使用self才能请求结束回掉，不然提起释放
+        [self requestDidSuccee:responseObject];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
         weakSelf.task = task;
         
-        [weakSelf requestDidFailure:error];
+        [self requestDidFailure:error];
         
     }];
     self.task = task;
@@ -160,14 +160,14 @@ static AFHTTPSessionManager *_sessionManager = nil;
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         weakSelf.task = task;
-        
-        [weakSelf requestDidSuccee:responseObject];
+        //使用self才能请求结束回掉，不然提起释放
+        [self requestDidSuccee:responseObject];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
         weakSelf.task = task;
         
-        [weakSelf requestDidFailure:error];
+        [self requestDidFailure:error];
         
     }];
     self.task = task;
