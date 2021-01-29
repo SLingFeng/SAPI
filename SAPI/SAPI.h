@@ -29,6 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)makeCodeKey:(NSString *)codeKey;
 
+- (instancetype)makeBodyStr:(NSString *)bodyStr;
+
 - (instancetype)makeHeaders:(NSDictionary <NSString *,NSString *> *)headers;
 
 - (instancetype)makeDidSuccessBlock:(void(^) (SAPIResponseModel * response))didSuccessBlock;
