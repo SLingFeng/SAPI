@@ -41,6 +41,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)GET;
 - (instancetype)POST;
+
+- (instancetype)GET_URL;
+- (instancetype)POST_URL;
+
 @end
 
 NS_ASSUME_NONNULL_END

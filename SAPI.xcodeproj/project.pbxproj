@@ -56,6 +56,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		226C3FD225C3A24B008AFD2C /* SAPI */ = {
+			isa = PBXGroup;
+			children = (
+				22CE90B625A2B8910027DADA /* SAPI.h */,
+				22CE90B725A2B8910027DADA /* SAPI.m */,
+				22CE90CE25A2DBCF0027DADA /* SAPIResponseModel.h */,
+				22CE90CF25A2DBCF0027DADA /* SAPIResponseModel.m */,
+			);
+			path = SAPI;
+			sourceTree = "<group>";
+		};
 		22CE909025A2B8500027DADA = {
 			isa = PBXGroup;
 			children = (
@@ -88,10 +99,7 @@
 				22CE90AA25A2B8520027DADA /* LaunchScreen.storyboard */,
 				22CE90AD25A2B8520027DADA /* Info.plist */,
 				22CE90AE25A2B8520027DADA /* main.m */,
-				22CE90B625A2B8910027DADA /* SAPI.h */,
-				22CE90B725A2B8910027DADA /* SAPI.m */,
-				22CE90CE25A2DBCF0027DADA /* SAPIResponseModel.h */,
-				22CE90CF25A2DBCF0027DADA /* SAPIResponseModel.m */,
+				226C3FD225C3A24B008AFD2C /* SAPI */,
 				22CE90D425A3046C0027DADA /* TestUser.h */,
 				22CE90D525A3046C0027DADA /* TestUser.m */,
 			);

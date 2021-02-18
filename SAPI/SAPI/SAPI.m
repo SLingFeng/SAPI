@@ -219,6 +219,7 @@ static AFURLSessionManager *_urlSessionManager = nil;
             [self requestDidSuccee:responseObject];
         }
     }];
+    [task resume];
     self.task = task;
 
     return self;
@@ -254,6 +255,7 @@ static AFURLSessionManager *_urlSessionManager = nil;
             [self requestDidSuccee:responseObject];
         }
     }];
+    [task resume];
     self.task = task;
 
     return self;

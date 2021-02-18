@@ -23,17 +23,17 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSDictionary *dict = @{ @"id":@"41" };
+    NSDictionary *dict = @{ @"id":@"68" };
     
-    SAPI *api = [[[[[[[[[SAPI new] makeUrlString:@"http://"] makeParameters:dict] makeCodeKey:@"status"] makeTrClass:[TestUser class]] makeHeaders:@{@"TOKEN" : @"IOS"}] makeDidSuccessBlock:^(SAPIResponseModel * _Nonnull response) {
-        NSLog(@"qwe:%@", self.api);
-        NSLog(@"%@", response.model);
+    SAPI *api = [[[[[[[[[SAPI new] makeUrlString:@"http://47.107.48.238:3001/v1/user/getUserInfoById.do"] makeParameters:dict] makeCodeKey:@"status"] makeTrClass:[TestUser class]] makeHeaders:@{@"TOKEN" : @"IOS-0cbeaad468aa444bbf18f149fc66b0bd"}] makeDidSuccessBlock:^(SAPIResponseModel * _Nonnull response) {
+            NSLog(@"qwe:%@", self.api);
+            NSLog(@"%@", response.model);
+            
+        }] makeDidFailureBlock:^(SAPIResponseModel * _Nonnull response) {
+            
+        }] POST];
         
-    }] makeDidFailureBlock:^(SAPIResponseModel * _Nonnull response) {
-        
-    }] POST];
-    
-    self.api = api;
+//        self.api = api;
 }
 
 
